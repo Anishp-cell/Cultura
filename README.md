@@ -37,32 +37,32 @@ Humans express emotions naturally—but machines often fail to understand them. 
 ```bash
 git clone https://github.com/Anishp-cell/Cultura.git
 cd Cultura
-
+```
 ### 2. Create and Activate Virtual Environment
-'''bash
+```bash
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 ### 3. Install Python Dependencies
-'''bash
+```bash
 
 pip install -r requirements.txt
-
+```
 ### 4. Install Ollama and LLaMA 3 Model
 
 Install Ollama from https://ollama.com/download
-'''bash
+```bash
 
 ollama pull llama3:8b  # or llama3:13b if you have enough RAM
-
+```
 ### 5. Start Ollama Daemon
-'''bash
+```bash
 
 ollama run llama3
 Keep this terminal running in the background. It starts the local LLM for text generation.
-
+```
 ### 6. Run Cultura App
-'''bash
-
+```bash
 streamlit run app.py
+```
